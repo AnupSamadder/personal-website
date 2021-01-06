@@ -26,7 +26,7 @@ p{ text-align: left;
     color: orange;
 }
 .half-width{
-    border: 1px solid black;
+    
     margin-left: 5%;
     padding: 30px 20px;
     width: 40%;
@@ -77,22 +77,3 @@ p{ text-align: left;
 #color-name{
     text-align: center;
 }
-.work-inquiry{
-    background-color: blue;
-    width: 70%;
-    padding: 80px 60px;
-    border-radius: 30px;
-    color: white;
-    overflow: hidden;
-    background-image: url(images/Group_33094_1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.button{
-display: inline-block;
-background-image: linear-gradient( orange, red);
-text-decoration: none;
-border-radius: 5px;
-padding: 10px 30px;
-}
-
