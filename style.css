@@ -1,6 +1,10 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.icon{
+    height: 100px;
+    border: 1px solid black;
+}
 
 
 ul li{
@@ -8,14 +12,18 @@ ul li{
     padding: 12px 20px;
     float: right;
 }
+section{
+    height: 600px;
+}
 h1{
-    font-size: 80px;
+    font-size: 60px;
 }
 h2{
-    font-size: 50px;
+    font-size: 25px;
 }
-h3{
+p{
     color: dimgray;
+    font-size: 25px;
 }
 #name-color{
     color: orange;
@@ -23,6 +31,7 @@ h3{
 .half-width{
     border: 1px solid red;
     width: 40%;
+    height:100%;
     float: left;
     margin-left: 5%;
 }
@@ -37,5 +46,15 @@ h3{
     border-radius: 10px;
     color: white;
     font-weight: 800;
+}
+.onethird-width{ 
+    width: 25%;
+    height:70%;
+    border:1px solid black;
+    float: left;
+    margin-left: 5%;
+}
 
+.onethird-width img{
+    width: 100%;
 }
