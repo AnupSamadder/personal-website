@@ -10,7 +10,7 @@ ul li{
     float: right;
 }
 section{
-    height: 600px;
+    height: 700px;
 }
 h1{
     font-size: 60px;
@@ -18,7 +18,7 @@ h1{
 h2{
     font-size: 25px;
 }
-p{
+p{ text-align: left;
     color: dimgray;
     font-size: 25px;
 }
@@ -26,11 +26,13 @@ p{
     color: orange;
 }
 .half-width{
-    
-    width: 40%;
-    height:100%;
-    float: left;
+    border: 1px solid black;
     margin-left: 5%;
+    padding: 30px 20px;
+    width: 40%;
+    height:70%;
+    float: left;
+    
 }
 .half-width img{
     width: 100%;
@@ -43,14 +45,15 @@ p{
     color: white;
     font-weight: 800;
 }
-.onethird-width{ 
-    width: 25%;
-    height:70%
-    border: 1px solid red;
-    float: left;
-    margin-left: 5%;
+.onethird-width{
     box-shadow: 10px 10px 40px gray;
-    border-radius: 25px;
+    border-radius: 30px;
+    margin-left: 5%;
+    padding: 1%;
+    float: left;
+    width: 25%;
+    height:57%
+    
 }
 
 .onethird-width img{
